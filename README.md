@@ -78,7 +78,7 @@ cdktf destroy
 ---
 
 ## 🛡️ Security Notes
-- `.env` file I have nor pushed due to secuity concern
+- `.env` file I have not pushed due to security concerns
 - Always add `.env` to `.gitignore`.
 
 
