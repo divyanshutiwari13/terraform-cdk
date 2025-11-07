@@ -1,0 +1,24 @@
+stacks/*.js
+stacks/*.d.ts
+# Node & Terraform
+node_modules/
+cdktf.out/
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Build files
+dist/
+*.js
+*.d.ts
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+*.log
