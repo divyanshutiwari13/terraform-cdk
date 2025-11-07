@@ -20,39 +20,4 @@ Ec2-2: node4.divyanshutiwari.site
 
 ---------------------------------------------------------------
 
-### Folder Structure
-terraform-cdk/
-│
-├── main.ts
-├── stacks/
-│   └── ec2-stack.ts  note: on this line no 39 uncomment the code 
-├── scripts/
-│   └── deploy.sh
-├── cdktf.json
-├── package.json
-└── README.md
 
-
-# ==== INSTALL CDKTF CLI ====
-npm install -g cdktf-cli
-cdktf --version
-
-# ==== INITIALIZE PROJECT ====
-mkdir terraform-cdk
-cd terraform-cdk
-cdktf init --template=typescript --local
-
-# ==== INSTALL DEPENDENCIES ====
-npm install cdktf constructs @cdktf/provider-aws
-
-# ==== SYNTHESIZE TERRAFORM JSON ====
-cdktf synth
-
-# ==== DEPLOY INFRASTRUCTURE ====
-cdktf deploy
-
-# ==== CHECK DEPLOYMENT LOGS (on EC2) ====
-cat /home/ubuntu/deploy.log
-
-# ==== DESTROY ALL RESOURCES ====
-cdktf destroy
