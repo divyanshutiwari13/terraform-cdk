@@ -25,7 +25,7 @@ terraform-cdk/
 │
 ├── main.ts
 ├── stacks/
-│   └── ec2-stack.ts    # NOTE: Uncomment line 39 to enable GitHub clone command
+│   └── ec2-stack.ts    
 ├── scripts/
 │   └── deploy.sh
 ├── cdktf.json
